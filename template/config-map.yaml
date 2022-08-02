@@ -19,4 +19,4 @@ metadata:
   name: nginx-index-html-configmap
   namespace: nginx
   resourceVersion: "15525"
-  uid: c425cdb7-4dee-41d4-aee2-cd8e6f23d2b2
+  uid: {{ .values.config-map.uid}}
