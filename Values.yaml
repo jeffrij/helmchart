@@ -1,0 +1,9 @@
+deployment:
+  replicaCount: 3
+  name: nginx
+service:
+  port: 8080
+  targetPort: 80
+  name: nginx
+config-map:
+uid: c425cdb7-4dee-41d4-aee2-cd8e6f23d2b2
